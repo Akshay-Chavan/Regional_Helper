@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tourist Info"
+        android:textColor="#FF0000FF"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            
+
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dhammagiri, Igatpuri"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+        <TextView
+        android:id="@+id/dhammagiri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="" />
+        </LinearLayout>
+        
+      <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            
+
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saptashrungi Gad, Vani"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+        <TextView
+        android:id="@+id/SaptashrungiGad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="" />
+        </LinearLayout>  
+        
+        <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            
+
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shree Saptashrungi Devi, Vani"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+        <TextView
+        android:id="@+id/ShreeSaptashrungiDevi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="" />
+        </LinearLayout>  
+        
+        <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            
+
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saputara"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+        <TextView
+        android:id="@+id/saputara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="" />
+        </LinearLayout> 
+        
+        <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            
+
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bhandardara and Kalsubai Peak"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+        <TextView
+        android:id="@+id/bhandadara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="" />
+        </LinearLayout>  
+        
+        <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            
+
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Veer Savarkar Smarak - Bhagur"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+        <TextView
+        android:id="@+id/veersavarkar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="" />
+        </LinearLayout>   
+        
+        <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            
+
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coin Museum:"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+        <TextView
+        android:id="@+id/coinmuseum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="" />
+        </LinearLayout>     
+        
+            
+        <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            
+
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gondeshwar Temple: "
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+        <TextView
+        android:id="@+id/Gondeshwar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="" />
+        </LinearLayout>   
+        
+        <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            
+
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teertharaj Gajapantha - Chamber Caves"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+        <TextView
+        android:id="@+id/chambercaves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="" />
+        </LinearLayout>     
+        
+        <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            
+
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Naroshankar Temple"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+        <TextView
+        android:id="@+id/Naroshankar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="" />
+        </LinearLayout>     
+        
+        <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            
+
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shree Sunder Narayan Temple"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+        <TextView
+        android:id="@+id/ShreeSundarNarayan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="" />
+        </LinearLayout>         
+        
+        </LinearLayout>        
+    </ScrollView>
+
+   
+
+</LinearLayout>
